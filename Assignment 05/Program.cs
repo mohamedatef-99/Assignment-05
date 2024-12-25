@@ -78,7 +78,23 @@
             //Console.WriteLine(message2); 
             #endregion
 
+            #region Null Propagation Operator
+            // Null Propagation Operator ?
 
+            //double x = default; // 0
+            //bool c = default; // false
+
+            //int[] arr = default; // null
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.WriteLine(arr[i]);
+            //}
+
+            ////int len = arr is not null ? arr.Length : 0;
+            //int? len = arr?.Length;
+            //int len = arr?.Length ?? 0; 
+            #endregion
         }
     }
 }
