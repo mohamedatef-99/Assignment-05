@@ -2,6 +2,12 @@
 {
     internal class Program
     {
+        //public class typeB
+        //{
+        //    void fun01() { 
+        //        Type
+        //    }
+        //}
         //static void DoSomeCode()
         //{
         //    try { 
@@ -135,6 +141,50 @@
 
             //// 2. application exception 
             #endregion
+
+            #region Access Modifiers
+            // Access Modifiers
+            // 1. private
+            // 2. protected
+            // 3. internal
+            // 4. protected internal
+            // 5. public
+            // 6. private protected
+
+            // what can write inside the namespace?
+            // 1. class
+            // 2. interface
+            // 3. enum
+            // 4. struct
+
+            // access modifiers inside namespace
+            // 1. public : everywhere
+            // 2. internal : inside the same project
+
+            // defualt access modifier inside namespace is internal
+
+            // what can write inside the class or struct?
+            // 1. Attributes
+            // 2. Methods
+            // 3. Properties
+            // 4. Events
+
+            // access modifiers inside class
+            // 1. private : inside the same class
+            // 2. protected : inside the same class and any class inherit from it
+            // 3. internal : inside the same project
+            // 4. protected internal : inside the same project and any class inherit from it
+            // 5. public : everywhere
+            // 6. private protected : inside the same project and any class inherit from it
+
+
+            // access modifiers inside struct
+            // 1. private : inside the same struct
+            // 2. internal : inside the same project
+            // 3. public : everywhere 
+            #endregion
+
+
         }
     }
 }
