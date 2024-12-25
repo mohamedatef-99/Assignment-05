@@ -2,6 +2,30 @@
 {
     internal class Program
     {
+        //static void DoSomeCode()
+        //{
+        //    try { 
+        //        int x, y, z;
+        //    x = int.Parse(Console.ReadLine());
+        //    y = int.Parse(Console.ReadLine());
+        //    z = x + y;
+        //    int[] arr = { 1, 2, 3, 4, 5 };
+        //    arr[99] = 10;
+        //    }
+        //    //catch
+        //    //{
+        //    //    Console.WriteLine("Error");
+        //    //}
+        //    catch(Exception e)
+        //    {
+        //        Console.WriteLine(e.Message);
+        //    }
+        //    finally
+        //    {
+        //        Console.WriteLine("Finally");
+        //        // Disconnect | Dipose Unmanaged Resources
+        //    }
+        //}
         static void Main(string[] args)
         {
             #region Boxing and Unboxing
@@ -94,6 +118,22 @@
             ////int len = arr is not null ? arr.Length : 0;
             //int? len = arr?.Length;
             //int len = arr?.Length ?? 0; 
+            #endregion
+
+            #region Exception
+            //DoSomeCode();
+            //Console.WriteLine("helle after exception");
+
+            //// Exception
+            //// 1. system exception
+            ////1.1. FormatException
+            ////1.2. IndexOutOfRangeException
+            ////1.3. NullReferenceException
+            ////1.4. ArithmeticException
+            //       //1.4.1 OverFlowException
+            //       //
+
+            //// 2. application exception 
             #endregion
         }
     }
