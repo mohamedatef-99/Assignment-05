@@ -67,10 +67,16 @@
             //    y = 0; 
             #endregion
 
+            #region Nullable Referene Type
+            //// Nullable Reference Type
 
+            //string message = null; // required
 
+            //string? message2 = null;  // nullable
 
-
+            //Console.WriteLine(message.Length);
+            //Console.WriteLine(message2); 
+            #endregion
 
 
         }
